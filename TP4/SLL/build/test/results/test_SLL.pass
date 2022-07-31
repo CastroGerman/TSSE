@@ -1,0 +1,42 @@
+---
+:source:
+  :path: test
+  :file: test_SLL.c
+:successes:
+- :test: test_SLNode_ctor
+  :line: 8
+  :message: ''
+  :unity_test_time: 0
+- :test: test_SLList_ctor
+  :line: 21
+  :message: ''
+  :unity_test_time: 0
+- :test: test_SLList_append
+  :line: 33
+  :message: ''
+  :unity_test_time: 0
+- :test: test_SLList_appendTwice
+  :line: 48
+  :message: ''
+  :unity_test_time: 0
+- :test: test_SLList_getLength
+  :line: 66
+  :message: ''
+  :unity_test_time: 0
+- :test: test_SLList_getNode
+  :line: 80
+  :message: ''
+  :unity_test_time: 0
+- :test: test_SLList_removeNode
+  :line: 92
+  :message: ''
+  :unity_test_time: 0
+:failures: []
+:ignores: []
+:counts:
+  :total: 7
+  :passed: 7
+  :failed: 0
+  :ignored: 0
+:stdout: []
+:time: 0.0010032619998128212
